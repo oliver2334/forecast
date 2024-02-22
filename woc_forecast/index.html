@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="card">
+    <div class="search">
+        <input type="text" placeholder="请输入城市名" spellcheck="false">
+        <button><img src="images/search.png"></button>
+    </div>
+    <div class="error">
+        <p>您输入了一个错误的城市名，请重新输入</p>
+    </div>
+    <div class="weather">
+        <img src="images/waiting.png" class="weather-text">
+        <h1 class="temp">--</h1>
+        <h2 class="city">--</h2>
+        <h3 class="kind_temp">--  --</h3>
+        <div class="details">
+            <div class="col">
+                <img src="images/humidity.png">
+                <div>
+                    <p class="humidity">--</p>
+                    <p>湿度</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/wind.png">
+                <div>
+                    <p class="wind">--</p>
+                    <p>风力</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/grass.png" class="feels_like">
+                <div>
+                    <p class="feel_like">--</p>
+                    <p>推荐行装</p>
+                </div>
+            </div>
+        </div>
+        <div class="details2">
+            <div class="col">
+                <img src="images/mojing.webp">
+                <div>
+                    <p class="uvIndex">--</p>
+                    <p>紫外线强度</p>
+                </div> 
+            </div>
+            <div class="col">
+                <img src="images/aqi.png">
+                <div>
+                    <p class="aqi">--</p>
+                    <p>空气质量</p>
+                </div>
+            </div>
+        </div>
+        <div class="tip">
+            <p class="uvIndex_warning">当前地区紫外线强度较高，请做好防护</p>
+        </div>
+    </div>
+        <h3>未来五日天气预报</h3>
+        <div class="forecast_box">
+            <div class="left">
+                <p class="date1">日期</p>
+            </div>
+            <div class="middle">
+                <img src="images/sleet.png" width="40px" height="40px" class="weather1">
+            </div>
+            <div class="middle_right">
+                <p class="textDay1">--</p>
+            </div>
+            <div class="rightmin">
+                <p class="min1">最低温</p>
+            </div>
+            <div class="rightmax">
+                <p class="max1">最高温</p>
+            </div>
+        </div>
+        <div class="forecast_box">
+            <div class="left">
+                <p class="date2">日期</p>
+            </div>
+            <div class="middle">
+                <img src="images/sleet.png" width="40px" height="40px" class="weather2">
+            </div>
+            <div class="middle_right">
+                <p class="textDay2">--</p>
+            </div>
+            <div class="rightmin">
+                <p class="min2">最低温</p>
+            </div>
+            <div class="rightmax">
+                <p class="max2">最高温</p>
+            </div>
+        </div>
+        <div class="forecast_box">
+            <div class="left">
+                <p class="date3">日期</p>
+            </div>
+            <div class="middle">
+                <img src="images/sleet.png" width="40px" height="40px" class="weather3">
+            </div>
+            <div class="middle_right">
+                <p class="textDay3">--</p>
+            </div>
+            <div class="rightmin">
+                <p class="min3">最低温</p>
+            </div>
+            <div class="rightmax">
+                <p class="max3">最高温</p>
+            </div>
+        </div>
+        <div class="forecast_box">
+            <div class="left">
+                <p class="date4">日期</p>
+            </div>
+            <div class="middle">
+                <img src="images/sleet.png" width="40px" height="40px" class="weather4">
+            </div>
+            <div class="middle_right">
+                <p class="textDay4">--</p>
+            </div>
+            <div class="rightmin">
+                <p class="min4">最低温</p>
+            </div>
+            <div class="rightmax">
+                <p class="max4">最高温</p>
+            </div>
+        </div>
+        <div class="forecast_box">
+            <div class="left">
+                <p class="date5">日期</p>
+            </div>
+            <div class="middle">
+                <img src="images/sleet.png" width="40px" height="40px" class="weather5">
+            </div>
+            <div class="middle_right">
+                <p class="textDay5">--</p>
+            </div>
+            <div class="rightmin">
+                <p class="min5">最低温</p>
+            </div>
+            <div class="rightmax">
+                <p class="max5">最高温</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="default.js"></script>
+
+</body>
+</html>

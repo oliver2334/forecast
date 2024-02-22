@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 100%;
+    max-width: 600px;
+    background:linear-gradient(mediumseagreen,slateblue,plum);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.search{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.search input{
+    border: 0px;
+    outline: 0;
+    background: #ebfffc;
+    height: 60px;
+    border-radius: 30px;
+    flex: 10;
+    padding-left:10%;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background-color:white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.search button img{
+    width: 40px;
+}
+
+.weather-text{
+    width: 180px;
+    margin-top: 10px;
+}
+
+.weather h1{
+font-size: 80px;
+font-weight: 500;
+}
+
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+    height: 120px;
+    line-height: 120px;
+}
+.weather h3{
+    margin-bottom: 10px;
+}
+
+.details{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 60px;
+    margin-top: 20px;
+    padding-bottom: 10%;
+}
+
+.details2{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 120px;
+    margin-top: 20px;
+    padding-bottom: 10%;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,.wind,.feel_like,.uvIndex,.vis,.aqi{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.error{
+    text-align: center;
+    margin-left: -10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+.futureWeather{
+    width: 100%;
+    background: blueviolet;
+}
+
+.day1,.day2,.day3,.day4,.day5{
+    height: 40px;
+}
+
+.forecast_box{
+height: 70px;
+}
+
+.left{
+    width: 30%;
+    float: left;
+    padding-top: 12px;
+}
+
+.middle{
+    width: 22%;
+    float: left;
+}
+
+.middle_right{
+    width: 20%;
+    float: left;
+    padding-top: 12px;
+    padding-right:5%;
+}
+
+.rightmax{
+    width: 12%;
+    float: left;
+    padding-top: 10px;
+}
+
+.rightmin{
+    width: 15%;
+    float: left;
+    padding-top: 10px;
+}
+
+.uvIndex_warning{
+    display: none;
+    font-size: 20px;
+    outline-width: 4px;
+    outline-color: crimson;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
